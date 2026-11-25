@@ -1,0 +1,33 @@
+{
+  "name": "qa-smart-ai-frontend",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "lucide-react": "0.468.0",
+    "react": "19.1.1",
+    "react-dom": "19.1.1",
+    "recharts": "2.15.4"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "4.1.14",
+    "@testing-library/jest-dom": "6.6.4",
+    "@testing-library/react": "16.3.0",
+    "@testing-library/user-event": "14.6.1",
+    "@types/node": "22.15.30",
+    "@types/react": "19.1.8",
+    "@types/react-dom": "19.1.7",
+    "@vitejs/plugin-react": "5.0.4",
+    "jsdom": "26.1.0",
+    "tailwindcss": "4.1.14",
+    "typescript": "5.8.3",
+    "vite": "^7.3.8",
+    "vitest": "^5.1.1"
+  }
+}

@@ -1,0 +1,49 @@
+# JavaScript dependencies and build output
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# Python environments and generated files
+.venv/
+backend/.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+coverage/
+*.tsbuildinfo
+
+# Local configuration and data
+.env
+.env.*
+!**/.env.example
+*.sqlite
+*.sqlite3
+*.db
+secrets/
+.secrets/
+credentials.json
+service-account*.json
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Editor and operating-system files
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+
+# Local logs and confidential QA evidence
+*.log
+npm-debug.log*
+qa-evidence/
+test-evidence/
+evidence/
+confidential/
+recordings/
+screenshots/
+*.har
+*.trace
